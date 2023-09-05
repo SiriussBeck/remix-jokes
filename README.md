@@ -1,6 +1,9 @@
-# Welcome to Remix!
+# Remix Jokes
 
+Remix study project
+<br />
 - [Remix Docs](https://remix.run/docs)
+- [To-do](#to-do)
 
 ## Development
 
@@ -57,7 +60,7 @@ rm -rf app
 cp -R ../my-old-remix-app/app app
 ```
 
-## TODO
+## TO-DO
 
 Study roadmap
 
