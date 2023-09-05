@@ -1,0 +1,8 @@
+{
+  "extends": ["@remix-run/eslint-config", "@remix-run/eslint-config/node"],
+  "plugins": ["prettier"],
+  "rules": {
+    "prettier/prettier": "error",
+    "@typescript-eslint/no-unused-vars": "off"
+  }
+}

@@ -1,0 +1,68 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\siriu\AppData\Local\node\corepack\yarn\1.22.19\bin\yarn.js install
+
+PATH: 
+  C:\Users\siriu\AppData\Local\Temp\xfs-dae4e9a4;C:\Program Files\PowerShell\7;C:\Python311\Scripts\;C:\Python311\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\dotnet\;C:\ProgramData\chocolatey\bin;C:\Program Files\GitHub CLI\;D:\Apps\vscode;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\PowerShell\7\;C:\Users\siriu\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\siriu\AppData\Local\Programs\Python\Python311\;C:\Users\siriu\AppData\Local\Microsoft\WindowsApps;C:\Users\siriu\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.17.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: C:\Users\siriu\OneDrive\Área de Trabalho\remix-jokes\node_modules\esbuild: Cannot find module 'pnpapi'
+  Require stack:
+  - C:\Users\siriu\AppData\Local\node\corepack\yarn\1.22.19\lib\cli.js
+  - C:\Users\siriu\AppData\Local\node\corepack\yarn\1.22.19\bin\yarn.js
+  Require stack:
+  - C:\Users\siriu\AppData\Local\node\corepack\yarn\1.22.19\lib\cli.js
+  - C:\Users\siriu\AppData\Local\node\corepack\yarn\1.22.19\bin\yarn.js
+      at Module._resolveFilename (node:internal/modules/cjs/loader:1077:15)
+      at require$$0.Module._resolveFilename (C:\Users\siriu\AppData\Local\Temp\xfs-780c7112\dlx-9380\.pnp.cjs:18274:54)
+      at require.resolve (C:\Users\siriu\AppData\Local\node\corepack\yarn\1.22.19\lib\v8-compile-cache.js:162:23)
+      at C:\Users\siriu\AppData\Local\node\corepack\yarn\1.22.19\lib\cli.js:34243:76
+      at Generator.next (<anonymous>)
+      at step (C:\Users\siriu\AppData\Local\node\corepack\yarn\1.22.19\lib\cli.js:310:30)
+      at C:\Users\siriu\AppData\Local\node\corepack\yarn\1.22.19\lib\cli.js:321:13
+
+npm manifest: 
+  {
+    "private": true,
+    "sideEffects": false,
+    "scripts": {
+      "build": "remix build",
+      "dev": "remix dev",
+      "start": "remix-serve build",
+      "typecheck": "tsc"
+    },
+    "dependencies": {
+      "@remix-run/css-bundle": "^1.19.3",
+      "@remix-run/node": "^1.19.3",
+      "@remix-run/react": "^1.19.3",
+      "@remix-run/serve": "^1.19.3",
+      "isbot": "^3.6.8",
+      "react": "^18.2.0",
+      "react-dom": "^18.2.0"
+    },
+    "devDependencies": {
+      "@remix-run/dev": "^1.19.3",
+      "@remix-run/eslint-config": "^1.19.3",
+      "@types/react": "^18.0.35",
+      "@types/react-dom": "^18.0.11",
+      "eslint": "^8.38.0",
+      "typescript": "^5.0.4"
+    },
+    "engines": {
+      "node": ">=14.0.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
